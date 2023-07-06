@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #000000;
+}
+html {
+  background-image: url(../public/bg2.jpg);
+  background-size: cover;
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  padding: 22px;
+  margin: 0 auto;
+  border-bottom: 1px solid #000000;
+}
+.navbar h1 {
+  color: #732914;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  padding: 6px;
+  color: #732914;
+  text-decoration: none;
+  font-weight: 600;
+}
+.navbar a:hover {
+  color: #000000;
+}
+.content {
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 600px;
+}
+.preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  background-image: url(../public/story.jpg);
+  background-size: cover;
+  transition: all 0.3s;
+}
+.preview:hover {
+  box-shadow: 1px 3px 8px rgba(109, 106, 106, 0.5);
+  cursor: pointer;
+  transform: scale(1.03);
+}
+.preview a {
+  text-decoration: none;
+}
+.preview h2 {
+  margin-bottom: 8px;
+  font-size: 20px;
+  color: #732914;
+}
+.story {
+  padding: 40px;
+  background-image: url(../public/story.jpg);
+  background-size: cover;
+}
+.story h2 {
+  margin-bottom: 12px;
+  font-size: 22px;
+  color: #732914;
+}
+.story div {
+  margin: 22px 0;
+}
+.story button {
+  padding: 9px;
+  background: #732914;
+  color: #fff;
+  border: 0;
+  border-radius: 9px;
+  cursor: pointer;
+}
+.story button:hover {
+  background: #98351a;
+}
+form {
+  padding: 24px;
+  background-image: url(../public/story.jpg);
+  background-size: cover;
+}
+.create {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  display: block;
+  text-align: left;
+}
+.create h2 {
+  margin-bottom: 32px;
+  font-size: 22px;
+  color: #732914;
+}
+.create input,
+.create textarea {
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  margin: 12px 0;
+  box-sizing: border-box;
+  border: 1px solid #a8a4a4;
+  background-color: transparent;
+}
+.create button {
+  padding: 9px;
+  background: #732914;
+  color: #fff;
+  border: 0;
+  border-radius: 9px;
+  cursor: pointer;
+}
+.create button:hover {
+  background: #98351a;
+}
+
+.not-exist h2 {
+  margin-bottom: 12px;
+  color: #732914;
+}
+
+.not-exist p {
+  margin-bottom: 12px;
+  font-size: 22px;
+}
+
+.go-back {
+  text-decoration: none;
+}
+
+.go-back:hover {
+  color: #732914;
+}

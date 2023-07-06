@@ -1,0 +1,22 @@
+{
+  "stories": [
+    {
+      "title": "Lost city",
+      "body": "My phone rang at midnight. I remember it clearly. I was chatting with Liz when it rang. Liz is my sister. It's a kind of a habit for us chatting late in the evening.",
+      "author": "Jane Wheels",
+      "id": 1
+    },
+    {
+      "title": "Scarecrow",
+      "body": "I heard those noises again this night. It was the third time I'd heard them. First I thought it was some birds on the roof. You know, crows build their nests in attics sometimes, and their young make those noises, like a baby crying. ",
+      "author": "Thomas Hills",
+      "id": 2
+    },
+    {
+      "title": "Your story",
+      "body": "Write something creepy here... ",
+      "author": "Creep",
+      "id": 3
+    }
+  ]
+}
